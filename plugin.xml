@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
   id="cordova-plugin-health-stepex"
-  version="1.0.1">
+  version="1.0.2">
 
   <name>Cordova Health</name>
 
@@ -78,7 +78,7 @@
 
   <!-- android -->
   <platform name="android">
-    <framework src="com.google.android.gms:play-services-fitness:9.2.0" />
+    <framework src="com.google.android.gms:play-services-fitness:9.8.0" />
     
     <config-file target="AndroidManifest.xml" parent="/*">
       <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
